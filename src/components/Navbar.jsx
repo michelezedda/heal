@@ -31,7 +31,11 @@ function Navbar() {
         )}
         {/* Side Menu */}
         {isMenuOpen && (
-          <ul className="absolute right-0 top-0 leading-12 pt-20 px-6 backdrop-blur-2xl h-[100dvh] w-3/4 lg:w-[500px] bg-white rounded-l-2xl z-40">
+          <ul
+            className={`absolute right-0 top-0 leading-12 pt-20 px-6 backdrop-blur-2xl h-[100dvh] w-3/4 lg:w-[500px] bg-white rounded-l-2xl z-40 duration-300 transform ${
+              isMenuOpen && "motion-preset-slide-left"
+            }`}
+          >
             <Link to={"/"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Home <MdKeyboardArrowRight />
