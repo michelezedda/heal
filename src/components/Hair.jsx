@@ -36,7 +36,7 @@ function Hair() {
                   How it works
                 </button>
               </div>
-              <div className="bg-[#1e4c6b] rounded-2xl w-full pt-6 text-start bg-[url(/media/hair-pic.png)] bg-left bg-no-repeat bg-cover lg:basis-1/2 lg:h-155">
+              <div className="rounded-2xl w-full pt-6 text-start bg-[url(/media/hair-pic.png)] bg-left bg-no-repeat bg-cover lg:basis-1/2 lg:h-155">
                 <div className="flex flex-col px-4 pb-8 gap-6">
                   <h3 className="text-white text-2xl pb-10">
                     Hair regrowth

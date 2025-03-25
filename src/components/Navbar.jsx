@@ -12,7 +12,7 @@ function Navbar() {
   };
   return (
     <>
-      <nav className="fixed top-0 flex justify-between items-center py-1 px-4 w-full text-3xl backdrop-blur-2xl font-[DM_Serif_Display] z-40 rounded-b-2xl">
+      <nav className="fixed top-0 flex justify-between items-center py-1 px-4 w-full text-3xl backdrop-blur-2xl font-[DM_Serif_Display] z-40 rounded-b-2xl shadow-md">
         <Link to={"/"}>
           <span>heal</span>
         </Link>
@@ -31,7 +31,7 @@ function Navbar() {
         )}
         {/* Side Menu */}
         {isMenuOpen && (
-          <ul className="absolute right-0 top-0 leading-12 pt-20 px-6 backdrop-blur-2xl h-[100dvh] w-3/4 bg-white rounded-l-2xl z-40">
+          <ul className="absolute right-0 top-0 leading-12 pt-20 px-6 backdrop-blur-2xl h-[100dvh] w-3/4 lg:w-[500px] bg-white rounded-l-2xl z-40">
             <Link to={"/"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Home <MdKeyboardArrowRight />

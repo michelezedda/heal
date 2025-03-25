@@ -25,7 +25,7 @@ function Sex() {
               </button>
             </div>
             <div className="flex flex-col lg:flex-row justify-start items-center gap-2 mt-2 px-4">
-              <div className="bg-[#1e4c6b] rounded-2xl flex flex-col items-start gap-6 w-full px-4 pt-15 pb-35 bg-[url(/media/sex-pills.png)] bg-no-repeat bg-cover text-start  lg:basis-1/2 lg:h-155">
+              <div className="bg-[#143c57] rounded-2xl flex flex-col items-start gap-6 w-full px-4 pt-15 pb-35 bg-[url(/media/sex-pills.png)] bg-no-repeat bg-cover text-start  lg:basis-1/2 lg:h-155">
                 <h3 className="text-white text-2xl">
                   Have longer, better sex <br />
                   with Rx + Climax Control
@@ -34,7 +34,7 @@ function Sex() {
                   Get results
                 </button>
               </div>
-              <div className="bg-[#1e4c6b] rounded-2xl w-full pt-6 text-start bg-[url(/media/sex-couple.png)] bg-center bg-no-repeat bg-cover lg:basis-1/2 lg:h-155">
+              <div className="rounded-2xl w-full pt-6 text-start bg-[url(/media/sex-couple.png)] bg-center bg-no-repeat bg-cover lg:basis-1/2 lg:h-155">
                 <div className="flex flex-col px-4 pb-8 gap-6 h-full justify-between">
                   <h3 className="text-white text-2xl pb-10">
                     How do you want to
