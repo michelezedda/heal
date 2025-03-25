@@ -13,19 +13,19 @@ function Weight() {
             autoPlay
             loop
             muted
-            className="absolute top-30 left-0 z-0 pointer-events-none"
+            className="absolute top-30 left-0 z-0 pointer-events-none touch-action-none"
           />
-          <div className="z-10 mt-55 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
+          <div className="z-10 mt-42 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
             <div className="flex justify-center items-center gap-2">
-              <button className="bg-white hover:bg-gray-300/70 hover:backdrop-blur-lg cursor-pointer rounded-full py-2 px-6 duration-300">
+              <button className="bg-white hover:bg-gray-300/70 hover:backdrop-blur-lg cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
                 Get started
               </button>
-              <button className="backdrop-blur-md hover:backdrop-blur-2xl border border-neutral-50/50 hover:border-neutral-50/10 text-white cursor-pointer rounded-full py-2 px-6 duration-300">
+              <button className="backdrop-blur-md hover:backdrop-blur-2xl border border-neutral-50/50 hover:border-neutral-50/10 text-white cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
                 See if I'm eligible
               </button>
             </div>
             <div className="flex flex-col lg:flex-row justify-center items-center gap-2 mt-2 px-4">
-              <div className="bg-[#905a22] rounded-2xl flex flex-col justify-center items-center gap-6 w-full px-28 py-15 text-center lg:basis-1/2 lg:h-155">
+              <div className="bg-[#905a22] rounded-2xl flex flex-col justify-center items-center gap-6 w-full px-16 py-15 text-center lg:basis-1/2 lg:h-155">
                 <h3 className="text-white text-4xl">
                   Moving in the
                   <br />
@@ -41,12 +41,12 @@ function Weight() {
                   Get a personalized weight loss plan designed with one goal in
                   mind: helping you feel happy in your body.
                 </p>
-                <button className="bg-amber-950/30 hover:bg-amber-950/50 text-white cursor-pointer rounded-full py-3 px-6 duration-300">
+                <button className="bg-amber-950/30 hover:bg-amber-950/50 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
                   Get results
                 </button>
               </div>
               <div className="bg-[#905a22] rounded-2xl w-full pt-15 text-center lg:basis-1/2 lg:h-155">
-                <div className="flex flex-col justify-center items-center gap-6 px-22">
+                <div className="flex flex-col justify-center items-center gap-6 px-16">
                   <h3 className="text-white text-4xl">
                     Eat healthy,
                     <br />
@@ -58,7 +58,7 @@ function Weight() {
                     </span>{" "}
                     in the Hims app, to help you maintain muscle mass.
                   </p>
-                  <button className="bg-amber-950/30 hover:bg-amber-950/50 text-white cursor-pointer rounded-full py-3 px-6 duration-300">
+                  <button className="bg-amber-950/30 hover:bg-amber-950/50 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
                     Get started
                   </button>
                 </div>
