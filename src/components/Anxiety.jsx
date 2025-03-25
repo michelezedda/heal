@@ -15,7 +15,7 @@ function Anxiety() {
             autoPlay
             loop
             muted
-            className="absolute top-30 left-0 z-0"
+            className="absolute top-30 left-0 z-0 pointer-events-none"
           />
           <div className="z-10 mt-55 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
             <div className="flex justify-center items-center gap-2">
