@@ -1,9 +1,9 @@
 function Weight() {
   return (
     <>
-      <div className="relative mt-10 flex flex-col justify-center">
-        <div className="h-400 bg-gradient-to-b from-[#c78e4b] via-[#c78d4b] to-[#aa5d06] rounded-2xl  text-center flex justify-center items-start pt-30">
-          <h2 className="absolute top-5 text-3xl text-white">
+      <div className="relative mt-10 flex flex-col justify-center bg-gradient-to-b from-[#c88f4c] via-[#c88f4c] to-[#aa5d06] rounded-2xl">
+        <div className="flex flex-col justify-center items-center text-center pt-30 pb-5">
+          <h2 className="absolute top-5 text-3xl md:text-5xl xl:text-6xl z-1 text-white">
             Lose weight
             <br />
             with a custom plan
@@ -13,9 +13,9 @@ function Weight() {
             autoPlay
             loop
             muted
-            className="rounded-lg"
+            className="absolute top-30 left-0 z-0"
           />
-          <div className="absolute top-85">
+          <div className="z-10 mt-55 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
             <div className="flex justify-center items-center gap-2">
               <button className="bg-white hover:bg-gray-300/70 hover:backdrop-blur-lg cursor-pointer rounded-full py-2 px-6 duration-300">
                 Get started
@@ -24,8 +24,8 @@ function Weight() {
                 See if I'm eligible
               </button>
             </div>
-            <div className="flex flex-col justify-center items-center gap-2 mt-2">
-              <div className="bg-[#905a22] rounded-2xl flex flex-col justify-center items-center gap-6 w-[97%] px-28 py-15 text-center">
+            <div className="flex flex-col lg:flex-row justify-center items-center gap-2 mt-2 px-4">
+              <div className="bg-[#905a22] rounded-2xl flex flex-col justify-center items-center gap-6 w-full px-28 py-15 text-center lg:basis-1/2 lg:h-155">
                 <h3 className="text-white text-4xl">
                   Moving in the
                   <br />
@@ -34,7 +34,7 @@ function Weight() {
                     src="/media/weight-phone.mp4"
                     autoPlay
                     muted
-                    className="rounded-lg"
+                    className="lg:max-w-70"
                   />
                 </h3>
                 <p className="text-sm font-medium text-white leading-4.5">
@@ -45,7 +45,7 @@ function Weight() {
                   Get results
                 </button>
               </div>
-              <div className="bg-[#905a22] rounded-2xl w-[97%] pt-15 text-center">
+              <div className="bg-[#905a22] rounded-2xl w-full pt-15 text-center lg:basis-1/2 lg:h-155">
                 <div className="flex flex-col justify-center items-center gap-6 px-22">
                   <h3 className="text-white text-4xl">
                     Eat healthy,

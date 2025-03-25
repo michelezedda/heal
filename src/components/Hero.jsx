@@ -30,18 +30,18 @@ function Hero() {
 
   return (
     <>
-      <div className="mt-20 mx-4">
-        <p className="text-5xl">
+      <div className="mt-20 mx-4 xl:mx-0">
+        <p className="text-5xl lg:text-7xl">
           <span
-            className={`${textColors[currentIndex]} transition-colors duration-200 text-`}
+            className={`${textColors[currentIndex]} transition-colors duration-200`}
           >
             {services[currentIndex]}
           </span>{" "}
           <br />
           personalized to you
         </p>
-        <p className="mt-4 text-xl">Customized care starts here</p>
-        <div className="flex flex-col items-start mt-4 text-lg font-semibold duration-200 ease-in-out transition-all gap-2">
+        <p className="mt-4 text-xl lg:text-2xl">Customized care starts here</p>
+        <div className="grid md:grid-cols-2 items-start mt-4 text-lg font-semibold duration-200 ease-in-out transition-all gap-2">
           {/* "Lose weight" button */}
           <button className="group flex justify-between py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-amber-700 hover:to-amber-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
             <div>
@@ -62,7 +62,7 @@ function Hero() {
           {/* "Regrow hair" button */}
           <button className="group flex justify-between py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-red-700 hover:to-red-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
             <div>
-              Regrow <span className="text-red-800">hair</span>
+              Tackle <span className="text-red-800">anxiety</span>
             </div>
             <div className="flex gap-3">
               <img
@@ -93,7 +93,7 @@ function Hero() {
           {/* "Tackle anxiety" button */}
           <button className="group flex justify-between py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-green-700 hover:to-green-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
             <div>
-              Tackle <span className="text-green-800">anxiety</span>
+              Regrow <span className="text-green-800">hair</span>
             </div>
             <div className="flex gap-3">
               <img
