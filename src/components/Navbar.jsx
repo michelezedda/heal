@@ -3,6 +3,7 @@ import { IoMdMenu } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaOpencart } from "react-icons/fa";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,11 +17,13 @@ function Navbar() {
         <Link to={"/"}>
           <span>heal</span>
         </Link>
-        <div
-          className="cursor-pointer hover:rounded-full p-3 z-50"
-          onClick={toggleMenu}
-        >
-          {isMenuOpen ? <IoCloseSharp /> : <IoMdMenu />}{" "}
+        <div className="flex">
+          <div className="cursor-pointer p-3 z-50">
+            <FaOpencart />
+          </div>
+          <div className="cursor-pointer p-3 z-50" onClick={toggleMenu}>
+            {isMenuOpen ? <IoCloseSharp /> : <IoMdMenu />}{" "}
+          </div>
         </div>
         {/* Overlay */}
         {isMenuOpen && (
@@ -61,14 +64,17 @@ function Navbar() {
                 Mental Health <MdKeyboardArrowRight />
               </li>
             </Link>
-            <Link to={"/skin"} onClick={toggleMenu}>
+            <li
+              className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between"
+              onClick={() =>
+                window.open("https://coconut-cosmetics.vercel.app/", "_blank")
+              }
+            >
+              Skincare <MdKeyboardArrowRight />
+            </li>
+            <Link to={"/shop"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
-                Skin <MdKeyboardArrowRight />
-              </li>
-            </Link>
-            <Link to={"/everyday-health"} onClick={toggleMenu}>
-              <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
-                Everyday Health <MdKeyboardArrowRight />
+                Shop <MdKeyboardArrowRight />
               </li>
             </Link>
           </ul>

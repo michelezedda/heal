@@ -45,7 +45,7 @@ function Hero() {
         <div className="grid md:grid-cols-2 items-start mt-4 text-lg font-semibold duration-200 ease-in-out transition-all gap-2">
           {/* "Weight loss" button */}
           <Link to={"/weight-loss"}>
-            <button className="group flex justify-between py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-amber-700 hover:to-amber-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
+            <button className="group flex justify-between items-center py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-amber-700 hover:to-amber-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
               <div>
                 Lose <span className="text-amber-800">weight</span>
               </div>
@@ -64,7 +64,7 @@ function Hero() {
           </Link>
           {/* "Mental health" button */}
           <Link to={"/mental-health"}>
-            <button className="group flex justify-between py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-red-700 hover:to-red-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
+            <button className="group flex justify-between items-center py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-red-700 hover:to-red-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
               <div>
                 Tackle <span className="text-red-800">anxiety</span>
               </div>
@@ -83,7 +83,7 @@ function Hero() {
           </Link>
           {/* "Sexual health" button */}
           <Link to={"/sexual-health"}>
-            <button className="group flex justify-between py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-sky-700 hover:to-sky-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
+            <button className="group flex justify-between items-center py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-sky-700 hover:to-sky-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
               <div>
                 Have better <span className="text-sky-800">sex</span>
               </div>
@@ -102,7 +102,7 @@ function Hero() {
           </Link>
           {/* "Hair regrowth" button */}
           <Link to={"/hair-regrowth"}>
-            <button className="group flex justify-between py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-green-700 hover:to-green-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
+            <button className="group flex justify-between items-center py-6 px-4 bg-neutral-100 rounded-2xl w-full hover:bg-gradient-to-r hover:from-green-700 hover:to-green-200 hover:text-white duration-200 ease-in-out transition-all cursor-pointer">
               <div>
                 Regrow <span className="text-green-800">hair</span>
               </div>
