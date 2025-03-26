@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Hair() {
   return (
@@ -19,12 +19,16 @@ function Hair() {
           />
           <div className="z-10 mt-42 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
             <div className="flex justify-center items-center gap-2">
-              <button className="bg-white hover:bg-gray-300/70 hover:backdrop-blur-lg cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
-                Get started
-              </button>
-              <button className="backdrop-blur-md hover:backdrop-blur-2xl border border-neutral-50/50 hover:border-neutral-50/10 text-white cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
-                Take the free hair quiz
-              </button>
+              <Link to={"/hair-regrowth"}>
+                <button className="bg-white hover:bg-gray-300/70 hover:backdrop-blur-lg cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
+                  Get started
+                </button>
+              </Link>
+              <Link to={"/hair-regrowth"}>
+                <button className="backdrop-blur-md hover:backdrop-blur-2xl border border-neutral-50/50 hover:border-neutral-50/10 text-white cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
+                  Take the free hair quiz
+                </button>
+              </Link>
             </div>
             <div className="flex flex-col lg:flex-row justify-start items-center gap-2 mt-2 px-4">
               <div className="bg-[#3e5524] rounded-2xl flex flex-col items-start gap-6 w-full px-4 pt-15 pb-35 bg-[url(/media/hair-pills.png)] bg-no-repeat bg-top lg:bg-[50%_99%] text-start lg:basis-1/2 lg:h-155">
@@ -32,9 +36,11 @@ function Hair() {
                   Hair loss treatment <br />
                   that’s suited to you
                 </h3>
-                <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
-                  How it works
-                </button>
+                <Link to={"/hair-regrowth"}>
+                  <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
+                    How it works
+                  </button>
+                </Link>
               </div>
               <div className="rounded-2xl w-full pt-6 text-start bg-[url(/media/hair-pic.png)] bg-left bg-no-repeat bg-cover lg:basis-1/2 lg:h-155">
                 <div className="flex flex-col px-4 pb-8 gap-6">
@@ -44,18 +50,26 @@ function Hair() {
                     <span className="text-green-900">made simple</span>
                   </h3>
                   <div className="flex flex-col justify-end items-start gap-1">
-                    <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
-                      Receding hairline?
-                    </button>
-                    <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
-                      Thinning at the crown?
-                    </button>
-                    <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
-                      Overall thinning?
-                    </button>
-                    <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
-                      Not sure?
-                    </button>
+                    <Link to={"/hair-regrowth"}>
+                      <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
+                        Receding hairline?
+                      </button>
+                    </Link>
+                    <Link to={"/hair-regrowth"}>
+                      <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
+                        Thinning at the crown?
+                      </button>
+                    </Link>
+                    <Link to={"/hair-regrowth"}>
+                      <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
+                        Overall thinning?
+                      </button>
+                    </Link>
+                    <Link to={"/hair-regrowth"}>
+                      <button className="bg-green-950/90 hover:bg-green-950 text-white cursor-pointer rounded-full py-3 px-6 duration-300 lg:text-xl">
+                        Not sure?
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

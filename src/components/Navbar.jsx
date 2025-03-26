@@ -41,32 +41,32 @@ function Navbar() {
                 Home <MdKeyboardArrowRight />
               </li>
             </Link>
-            <Link to={"/sexual-health"}>
+            <Link to={"/sexual-health"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Sexual Health <MdKeyboardArrowRight />
               </li>
             </Link>
-            <Link to={"/weight-loss"}>
+            <Link to={"/weight-loss"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Weight Loss <MdKeyboardArrowRight />
               </li>
             </Link>
-            <Link to={"/hair-regrowth"}>
+            <Link to={"/hair-regrowth"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Hair Regrowth <MdKeyboardArrowRight />
               </li>
             </Link>
-            <Link to={"/mental-health"}>
+            <Link to={"/mental-health"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Mental Health <MdKeyboardArrowRight />
               </li>
             </Link>
-            <Link to={"/skin"}>
+            <Link to={"/skin"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Skin <MdKeyboardArrowRight />
               </li>
             </Link>
-            <Link to={"/everyday-health"}>
+            <Link to={"/everyday-health"} onClick={toggleMenu}>
               <li className="hover:bg-neutral-100 rounded-full px-4 cursor-pointer flex items-center justify-between">
                 Everyday Health <MdKeyboardArrowRight />
               </li>
