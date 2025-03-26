@@ -8,7 +8,7 @@ function App() {
   const WeightLoss = lazy(() => import("./pages/WeightLoss"));
   const HairRegrowth = lazy(() => import("./pages/HairRegrowth"));
   const MentalHealth = lazy(() => import("./pages/MentalHealth"));
-  const EverydayHealth = lazy(() => import("./pages/EverydayHealth"));
+  const Shop = lazy(() => import("./pages/Shop"));
 
   return (
     <>
