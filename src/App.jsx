@@ -26,7 +26,7 @@ function App() {
           <Route path="/weight-loss" element={<WeightLoss />} />
           <Route path="/hair-regrowth" element={<HairRegrowth />} />
           <Route path="/mental-health" element={<MentalHealth />} />
-          <Route path="/shop" element={<EverydayHealth />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
