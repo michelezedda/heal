@@ -1,25 +1,37 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import SexualHealth from "./pages/SexualHealth";
-import WeightLoss from "./pages/WeightLoss";
-import HairRegrowth from "./pages/HairRegrowth";
-import MentalHealth from "./pages/MentalHealth";
-import Skin from "./pages/Skin";
-import EverydayHealth from "./pages/EverydayHealth";
+import { lazy, Suspense } from "react";
+import "ldrs/grid";
 
 function App() {
+  const Home = lazy(() => import("./Home"));
+  const SexualHealth = lazy(() => import("./pages/SexualHealth"));
+  const WeightLoss = lazy(() => import("./pages/WeightLoss"));
+  const HairRegrowth = lazy(() => import("./pages/HairRegrowth"));
+  const MentalHealth = lazy(() => import("./pages/MentalHealth"));
+  const Skin = lazy(() => import("./pages/Skin"));
+  const EverydayHealth = lazy(() => import("./pages/EverydayHealth"));
+
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sexual-health" element={<SexualHealth />} />
-        <Route path="/weight-loss" element={<WeightLoss />} />
-        <Route path="/hair-regrowth" element={<HairRegrowth />} />
-        <Route path="/mental-health" element={<MentalHealth />} />
-        <Route path="/skin" element={<Skin />} />
-        <Route path="/everyday-health" element={<EverydayHealth />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
+      <Suspense
+        fallback={
+          <div className="flex flex-col justify-center items-center h-screen gap-6 font-[DM_Serif_Display]">
+            <span className="text-6xl">heal</span>
+            <l-grid size="100" speed="1.5" color="black"></l-grid>
+          </div>
+        }
+      >
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sexual-health" element={<SexualHealth />} />
+          <Route path="/weight-loss" element={<WeightLoss />} />
+          <Route path="/hair-regrowth" element={<HairRegrowth />} />
+          <Route path="/mental-health" element={<MentalHealth />} />
+          <Route path="/skin" element={<Skin />} />
+          <Route path="/everyday-health" element={<EverydayHealth />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </Suspense>
     </>
   );
 }
