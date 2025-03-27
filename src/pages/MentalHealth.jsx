@@ -47,7 +47,7 @@ function MentalHealth() {
                   </p>
                   <div className="flex justify-end">
                     <Link to={"/shop"} className="w-full">
-                      <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full">
+                      <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full my-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full">
                         All medications
                       </button>
                     </Link>

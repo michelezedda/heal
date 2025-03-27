@@ -25,7 +25,7 @@ function Weight() {
                 </button>
               </Link>
               <Link to={"/weight-loss"}>
-                <button className="backdrop-blur-md hover:backdrop-blur-2xl border border-neutral-50/50 hover:border-neutral-50/10 text-white cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
+                <button className="backdrop-blur hover:backdrop-blur-2xl border border-neutral-50/50 hover:border-neutral-50/10 text-white cursor-pointer rounded-full py-2 px-6 duration-300 lg:text-2xl">
                   See if I'm eligible
                 </button>
               </Link>
