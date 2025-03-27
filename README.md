@@ -15,7 +15,7 @@ heal is a modern mental health platform designed to make self-care simple, acces
 - **Git**: Version control system for tracking changes and collaborating.
 - **React**: JavaScript library for dynamic user interfaces.
 - **Vite**: Front-end dev tool improving developer experience.
-- **react-hot-toast**: A React library for displaying customizable notifications.
+- **React-Toastify**: A library for displaying customizable notifications.
 - **React Icons**: A library providing popular icons as React components.
 - **Rombo**: A JavaScript library for smooth and performant animations.
 
