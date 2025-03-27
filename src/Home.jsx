@@ -5,8 +5,16 @@ import Anxiety from "./components/Anxiety";
 import Sex from "./components/Sex";
 import Hair from "./components/Hair";
 import Footer from "./components/Footer";
+import { useAppContext } from "./context/AppContext";
+import { useEffect } from "react";
 
 function Home() {
+  const { scrollToTop } = useAppContext();
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <>
       <Navbar />

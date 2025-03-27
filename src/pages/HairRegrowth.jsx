@@ -4,9 +4,16 @@ import { IoAddCircle } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import { useAppContext } from "../context/AppContext";
+import { useEffect } from "react";
 
 function HairRegrowth() {
+  const { scrollToTop } = useAppContext();
   const handleToast = () => toast("Wow so easy !");
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
 
   return (
     <>

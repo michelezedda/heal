@@ -1,8 +1,16 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { useAppContext } from "../context/AppContext";
+import { useEffect } from "react";
 
 function MentalHealth() {
+  const { scrollToTop } = useAppContext();
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <>
       <Navbar />

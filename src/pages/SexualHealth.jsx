@@ -2,8 +2,16 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { IoAddCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { useAppContext } from "../context/AppContext";
+import { useEffect } from "react";
 
 function SexualHealth() {
+  const { scrollToTop } = useAppContext();
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <>
       <Navbar />

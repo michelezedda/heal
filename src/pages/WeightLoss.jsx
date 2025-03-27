@@ -1,14 +1,20 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoAddCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { useAppContext } from "../context/AppContext";
 
 function WeightLoss() {
   const [feet, setFeet] = useState("");
   const [inches, setInches] = useState("");
   const [pounds, setPounds] = useState("");
   const [BMI, setBMI] = useState(null);
+  const { scrollToTop } = useAppContext();
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
 
   const handleFeet = (e) => {
     setFeet(e.target.value);
