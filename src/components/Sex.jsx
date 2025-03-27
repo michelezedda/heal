@@ -15,7 +15,9 @@ function Sex() {
             autoPlay
             loop
             muted
+            playsInline
             className="absolute top-30 lg:top-40 left-0 z-0 pointer-events-none touch-action-none"
+            style={{ PointerEvent: "none" }}
           />
           <div className="z-10 mt-42 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
             <div className="flex justify-center items-center gap-2">
