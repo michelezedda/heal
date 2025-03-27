@@ -2,12 +2,16 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { IoAddCircle } from "react-icons/io5";
 import { MdVerified } from "react-icons/md";
+import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 
 function HairRegrowth() {
+  const handleToast = () => toast("Wow so easy !");
+
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-screen-xl">
+      <div className="mx-auto max-w-screen-2xl">
         <div className="mx-4 flex flex-col gap-4 justify-center items-center mt-26">
           <h1 className="text-4xl lg:text-6xl text-green-800 text-center font-semibold">
             Hair regrowth made simple
@@ -31,9 +35,11 @@ function HairRegrowth() {
                   </p>
                 </div>
                 <div className="flex justify-end">
-                  <button className="bg-green-900/80 text-white translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-green-900 hover:backdrop-blur-lg text-lg active:scale-98">
-                    See all treatments
-                  </button>
+                  <Link to={"/shop"}>
+                    <button className="bg-green-900/80 text-white translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-green-900 hover:backdrop-blur-lg text-lg active:scale-98">
+                      See all treatments
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="bg-[url(/media/green-sheet.png)] bg-cover bg-no-repeat bg-center rounded-2xl p-4 flex flex-col items-center justify-between h-140">
@@ -55,7 +61,10 @@ function HairRegrowth() {
                   </ul>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Get started
                   </button>
                   <p className="text-gray-400">
@@ -117,9 +126,11 @@ function HairRegrowth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-green-700/50 text-black hover:text-white translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-green-800 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
-                    See options
-                  </button>
+                  <Link to={"/shop"}>
+                    <button className="bg-green-700/50 text-black hover:text-white translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-green-800 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                      See options
+                    </button>
+                  </Link>
                 </div>
               </div>
               {/* Results */}
@@ -179,15 +190,18 @@ function HairRegrowth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
-                    Get started today
-                  </button>
+                  <Link to={"/shop"}>
+                    <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                      Get started today
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <ToastContainer />
       <Footer />
     </>
   );

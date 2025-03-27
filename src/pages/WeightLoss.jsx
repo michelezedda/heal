@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useState } from "react";
 import { IoAddCircle } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 function WeightLoss() {
   const [feet, setFeet] = useState("");
@@ -37,7 +38,7 @@ function WeightLoss() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-screen-xl">
+      <div className="mx-auto max-w-screen-2xl">
         <div className="mx-4 flex flex-col gap-4 justify-center items-center mt-26">
           <h1 className="text-4xl lg:text-6xl text-amber-800 text-center font-semibold">
             It's more than a plan, <br />
@@ -189,8 +190,8 @@ function WeightLoss() {
                 </p>
               </div>
             </div>
-            {/* Hair treatments */}
-            <div className="flex flex-col justify-between p-4 h-120 rounded-2xl bg-[url(/media/brown.png)] bg-center bg-no-repeat bg-cover w-full text-white">
+            {/* Weight Loss treatments */}
+            <div className="flex flex-col justify-between p-4 h-150 rounded-2xl bg-[url(/media/brown-pills.png)] bg-center bg-no-repeat bg-cover w-full text-white">
               <div className="text-center">
                 <h4 className="text-2xl md:text-4xl mb-2 font-bold">
                   Weight loss treatment for{" "}
@@ -200,7 +201,7 @@ function WeightLoss() {
                   Doctor-trusted weight loss treatment options
                 </p>
               </div>
-              <ul className="flex flex-col gap-2 md:text-2xl">
+              <ul className="flex flex-col gap-2 md:text-2xl w-3/4">
                 <li className="flex items-center gap-2">
                   <IoAddCircle /> Personalized, doctor-trusted treatment plans
                 </li>
@@ -214,16 +215,18 @@ function WeightLoss() {
                 </li>
               </ul>
               <div>
-                <button className="bg-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
-                  Get started
-                </button>
+                <Link to={"/shop"}>
+                  <button className="bg-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                    Get started
+                  </button>
+                </Link>
                 <button className="bg-white text-black hover:text-white translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
                   See if treatment is right for me
                 </button>
               </div>
             </div>
             {/* Meal replacement */}
-            <div className="flex flex-col justify-between p-4 h-150 rounded-2xl bg-[url(/media/brown-pills.png)] bg-[70%_50%] bg-no-repeat bg-cover w-full text-white">
+            <div className="flex flex-col justify-between p-4 h-120 rounded-2xl bg-[url(/media/protein-bar.png)] bg-[90%_50%] bg-no-repeat bg-cover w-full text-white">
               <div className="text-center">
                 <h4 className="text-2xl md:text-4xl mb-2 font-bold">
                   Meal replacement kits{" "}

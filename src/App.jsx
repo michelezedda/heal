@@ -8,7 +8,8 @@ function App() {
   const WeightLoss = lazy(() => import("./pages/WeightLoss"));
   const HairRegrowth = lazy(() => import("./pages/HairRegrowth"));
   const MentalHealth = lazy(() => import("./pages/MentalHealth"));
-  const Shop = lazy(() => import("./pages/Shop"));
+  const Shop = lazy(() => import("./pages/shop/Shop"));
+  const Cart = lazy(() => import("./pages/Cart"));
 
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
           <Route path="/hair-regrowth" element={<HairRegrowth />} />
           <Route path="/mental-health" element={<MentalHealth />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>

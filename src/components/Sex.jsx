@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function Sex() {
   return (
     <>
-      <div className="relative mt-6 flex flex-col justify-center bg-gradient-to-b from-[#4e799a] via-[#4e799a] to-[#1d4968] rounded-2xl">
+      <div className="relative mt-6 flex flex-col justify-center bg-[#5f89ab] rounded-2xl">
         <div className="flex flex-col justify-center items-center text-center pt-30 pb-5">
-          <h2 className="absolute top-5 text-3xl md:text-5xl xl:text-6xl z-1 text-white">
+          <h2 className="absolute top-5 text-3xl md:text-4xl xl:text-6xl z-1 text-white">
             Bring out your best
             <br />
             in the bedroom
@@ -15,7 +15,7 @@ function Sex() {
             autoPlay
             loop
             muted
-            className="absolute top-30 left-0 z-0 pointer-events-none touch-action-none"
+            className="absolute top-30 lg:top-40 left-0 z-0 pointer-events-none touch-action-none"
           />
           <div className="z-10 mt-42 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
             <div className="flex justify-center items-center gap-2">
@@ -30,7 +30,7 @@ function Sex() {
                 </button>
               </Link>
             </div>
-            <div className="flex flex-col lg:flex-row justify-start items-center gap-2 mt-2 px-4">
+            <div className="flex flex-col lg:flex-row justify-start items-center gap-2 mt-2 lg:mt-10 px-4 xl:mx-40">
               <div className="bg-[#143c57] rounded-2xl flex flex-col items-start gap-6 w-full px-4 pt-15 pb-35 bg-[url(/media/sex-pills.png)] bg-top lg:bg-bottom bg-no-repeat text-start lg:basis-1/2 lg:h-155">
                 <h3 className="text-white text-2xl md:text-4xl">
                   Have longer, better sex <br />

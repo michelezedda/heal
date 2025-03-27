@@ -31,7 +31,7 @@ function Hero() {
 
   return (
     <>
-      <div className="mt-20 mx-4 xl:mx-0">
+      <div className="mt-20 px-4 xl:px-0 mx-auto max-w-screen-xl">
         <p className="text-5xl lg:text-7xl">
           <span
             className={`${textColors[currentIndex]} transition-colors duration-200`}

@@ -1,12 +1,13 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { IoAddCircle } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 function SexualHealth() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-screen-xl">
+      <div className="mx-auto max-w-screen-2xl">
         <div className="mx-4 flex flex-col gap-4 justify-center items-center mt-26">
           <h1 className="text-4xl lg:text-6xl text-sky-800 text-center font-semibold">
             Sex. Let's talk about it.
@@ -44,11 +45,12 @@ function SexualHealth() {
                   <p className="text-center">
                     Once-daily options for spontaneous sex.
                   </p>
-                  <div className="flex justify-end"></div>{" "}
-                </div>{" "}
-                <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full">
-                  All medications
-                </button>
+                </div>
+                <Link to={"/shop"} className="w-full">
+                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full">
+                    All medications
+                  </button>
+                </Link>
               </div>
               <div className="bg-[url(/media/couple.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
                 <div>

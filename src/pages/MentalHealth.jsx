@@ -1,16 +1,17 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function MentalHealth() {
   return (
     <>
       <Navbar />
-      <div className="mx-auto max-w-screen-xl">
+      <div className="mx-auto max-w-screen-2xl">
         <div className="mx-4 flex flex-col gap-4 justify-center items-center mt-26">
           <h1 className="text-4xl lg:text-6xl text-red-800 text-center font-semibold">
             Start your mental health assessment
           </h1>
-          <p className="lg:text-2xl lg:mx-10">
+          <p className="lg:text-2xl lg:mx-10 xl:mx-26">
             <span className="text-black font-medium">Feel better soon.</span> Go
             beyond traditional mental health services with treatment specific to
             your symptoms from a licensed provider, 100% online.
@@ -45,9 +46,11 @@ function MentalHealth() {
                     Try a free consultation to see if it might be right for you.
                   </p>
                   <div className="flex justify-end">
-                    <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full">
-                      All medications
-                    </button>
+                    <Link to={"/shop"} className="w-full">
+                      <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg text-lg active:scale-98 w-full">
+                        All medications
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

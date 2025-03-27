@@ -4,6 +4,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaOpencart } from "react-icons/fa";
+import CartBadge from "./CartBadge";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,9 @@ function Navbar() {
         </Link>
         <div className="flex">
           <div className="cursor-pointer p-3 z-50">
-            <FaOpencart />
+            <Link to={"/cart"}>
+              <FaOpencart /> <CartBadge />{" "}
+            </Link>
           </div>
           <div className="cursor-pointer p-3 z-50" onClick={toggleMenu}>
             {isMenuOpen ? <IoCloseSharp /> : <IoMdMenu />}{" "}
