@@ -89,7 +89,7 @@ const medications = [
     name: "Adipurex",
     description: "Enhances fat metabolism and supports energy levels.",
     label: "Weight Loss",
-    price: 56.98,
+    price: 156.98,
     img: medPic10,
   },
   {
@@ -97,7 +97,7 @@ const medications = [
     name: "Desirex",
     description: "Increases desire and improves intimate wellness.",
     label: "Sexual Health",
-    price: 56.98,
+    price: 83.98,
     img: medPic11,
   },
   {
@@ -105,7 +105,7 @@ const medications = [
     name: "Zenthia",
     description: "Supports mental clarity and emotional balance.",
     label: "Mental Health",
-    price: 56.98,
+    price: 62.98,
     img: medPic12,
   },
 ];

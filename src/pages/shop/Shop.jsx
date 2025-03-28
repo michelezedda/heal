@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import ShopCard from "./ShopCard";
-import medications from "../../data/medications.js";
+import medications from "../../data/medications";
 
 function Shop() {
   return (
@@ -17,7 +17,7 @@ function Shop() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4 md:gap-x-8 2xl:gap-4 mt-4">
           {medications.map((medication) => (
             <div key={medication.id}>
-              <ShopCard medication={medication} />
+              <ShopCard {...medication} />
             </div>
           ))}
         </div>
