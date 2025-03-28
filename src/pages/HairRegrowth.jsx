@@ -9,7 +9,8 @@ import { useEffect } from "react";
 
 function HairRegrowth() {
   const { scrollToTop } = useAppContext();
-  const handleToast = () => toast("Wow so easy !");
+  const handleToast = () =>
+    toast("Demo mode: where buttons look useful but aren't!");
 
   useEffect(() => {
     scrollToTop();
@@ -103,7 +104,10 @@ function HairRegrowth() {
                   </ul>
                 </div>
                 <div className="flex flex-col gap-4 justify-end">
-                  <button className="bg-green-900/80 text-white translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-green-900 hover:backdrop-blur-lg text-lg active:scale-98">
+                  <button
+                    className="bg-green-900/80 text-white translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-green-900 hover:backdrop-blur-lg text-lg active:scale-98"
+                    onClick={handleToast}
+                  >
                     Take the free hair quiz
                   </button>
                   <p className="text-gray-200">
@@ -148,7 +152,10 @@ function HairRegrowth() {
                   </h4>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Start now
                   </button>
                 </div>
@@ -181,7 +188,10 @@ function HairRegrowth() {
                   </ol>
                 </div>
                 <div>
-                  <button className="bg-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Take the first step
                   </button>
                 </div>
@@ -208,7 +218,7 @@ function HairRegrowth() {
           </div>
         </div>
       </div>
-      <ToastContainer />
+      <ToastContainer position="bottom-right" />
       <Footer />
     </>
   );

@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useMemo, useState } from "react";
 
 const AppContext = createContext();
 
@@ -6,10 +6,16 @@ export function AppProvider({ children }) {
   const [cart, setCart] = useState([]);
   const cartQuantity = cart.reduce((total, item) => total + item.quantity, 0);
 
-  // Function to scroll to the top
+  // Scroll to the top
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  // Calculate total price
+  const totalPrice = useMemo(
+    () => cart.reduce((total, item) => total + item.price * item.quantity, 0),
+    [cart]
+  );
 
   // Function to add items to the cart
   const addToCart = (newItem) => {
@@ -30,7 +36,7 @@ export function AppProvider({ children }) {
     });
   };
 
-  // Function to increase items quantity
+  // Increase item quantity
   const increaseQuantity = (id) => {
     setCart((prevCart) =>
       prevCart.map((item) =>
@@ -39,7 +45,7 @@ export function AppProvider({ children }) {
     );
   };
 
-  // Function to remove items to the cart
+  // Remove items from the cart
   const removeItem = (id) => {
     setCart((prevCart) =>
       prevCart
@@ -59,6 +65,7 @@ export function AppProvider({ children }) {
         cartQuantity,
         increaseQuantity,
         removeItem,
+        totalPrice,
       }}
     >
       {children}

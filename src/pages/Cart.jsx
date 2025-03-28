@@ -1,10 +1,20 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useAppContext } from "../context/AppContext";
+import { ToastContainer, toast } from "react-toastify";
 import { FaRegTrashAlt } from "react-icons/fa";
+import { useEffect } from "react";
 
 function Cart() {
-  const { cart, increaseQuantity, removeItem } = useAppContext();
+  const { cart, increaseQuantity, removeItem, scrollToTop, totalPrice } =
+    useAppContext();
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
+  const handleToast = () =>
+    toast("Demo mode: where buttons look useful but aren't!");
 
   return (
     <>
@@ -16,8 +26,8 @@ function Cart() {
         <div className="flex flex-col text-black px-2 lg:px-10">
           {cart.length > 0 ? (
             cart.map((item) => (
-              <div key={item.id} className="border-b-1 border-yellow-700 mb-2">
-                <div className="flex gap-4">
+              <div key={item.id}>
+                <div className="flex gap-4 border-b-1 border-yellow-700 mb-2">
                   <div>
                     <img src={item.img} alt={item.name} className="w-50 mb-1" />
                   </div>
@@ -52,22 +62,39 @@ function Cart() {
                           +
                         </button>
                       </span>
-                      <span className="text-2xl">$ {item.price}</span>
+                      <span className="text-2xl">
+                        $ {(item.price * item.quantity).toFixed(2)}
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
             ))
           ) : (
-            <p className="text-black text-xl">Your cart is empty.</p>
+            <p className="text-stone-500 text-xl text-center">
+              Your cart is empty.
+            </p>
           )}
-          <button className="bg-white text-black translate-transform ease-in-out duration-300 p-2 rounded-full mt-4 cursor-pointer hover:bg-yellow-700/50 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full border-1 border-stone-400 hover:border-yellow-700">
-            CHECKOUT
-          </button>
+          <div className="mt-10 text-2xl flex flex-col">
+            <div className="flex justify-between">
+              Total:{" "}
+              <span className="font-medium">
+                $ {totalPrice > 0 ? totalPrice.toFixed(2) : "0.00"}
+              </span>
+            </div>
+            <button
+              className="bg-yellow-700/50 hover:bg-yellow-700/80 text-black translate-transform ease-in-out duration-300 p-2 rounded-2xl mt-4 cursor-pointer hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full border-1 border-stone-400 hover:border-yellow-700"
+              onClick={handleToast}
+            >
+              CHECKOUT
+            </button>
+          </div>
         </div>
-        <div></div>
       </div>
-      <Footer />
+      <ToastContainer position="bottom-right" />
+      <div className="mt-100">
+        <Footer />
+      </div>
     </>
   );
 }

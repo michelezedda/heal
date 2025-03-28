@@ -2,11 +2,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { IoAddCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 import { useAppContext } from "../context/AppContext";
 import { useEffect } from "react";
 
 function SexualHealth() {
   const { scrollToTop } = useAppContext();
+  const handleToast = () =>
+    toast("Demo mode: where buttons look useful but aren't!");
 
   useEffect(() => {
     scrollToTop();
@@ -70,7 +73,10 @@ function SexualHealth() {
                   </p>
                 </div>
                 <div className="flex justify-end">
-                  <button className="bg-sky-900/80 text-white translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-sky-900 hover:backdrop-blur-lg text-lg active:scale-98">
+                  <button
+                    className="bg-sky-900/80 text-white translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-sky-900 hover:backdrop-blur-lg text-lg active:scale-98"
+                    onClick={handleToast}
+                  >
                     See if before sex meds are right for me
                   </button>
                 </div>
@@ -91,7 +97,10 @@ function SexualHealth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     See options
                   </button>
                 </div>
@@ -107,7 +116,10 @@ function SexualHealth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     See options
                   </button>
                 </div>
@@ -121,7 +133,10 @@ function SexualHealth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Get started today
                   </button>
                 </div>
@@ -148,10 +163,16 @@ function SexualHealth() {
                   </ul>
                 </div>
                 <div>
-                  <button className="bg-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Get started
                   </button>
-                  <button className="bg-white text-black hover:text-white translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black hover:text-white translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     See if treatment is right for me
                   </button>
                 </div>
@@ -160,6 +181,7 @@ function SexualHealth() {
           </div>
         </div>
       </div>
+      <ToastContainer position="bottom-right" />
       <Footer />
     </>
   );

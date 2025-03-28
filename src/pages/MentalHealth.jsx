@@ -2,10 +2,13 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { useAppContext } from "../context/AppContext";
+import { ToastContainer, toast } from "react-toastify";
 import { useEffect } from "react";
 
 function MentalHealth() {
   const { scrollToTop } = useAppContext();
+  const handleToast = () =>
+    toast("Demo mode: where buttons look useful but aren't!");
 
   useEffect(() => {
     scrollToTop();
@@ -73,12 +76,13 @@ function MentalHealth() {
                   </p>
                 </div>
                 <div className="flex justify-end">
-                  <a
+                  <button
                     href="#treatments"
                     className="bg-red-900/80 text-white translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-red-900 hover:backdrop-blur-lg text-lg active:scale-98"
+                    onClick={handleToast}
                   >
                     Start your visit
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -109,7 +113,10 @@ function MentalHealth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Start a consultation
                   </button>
                 </div>
@@ -125,7 +132,10 @@ function MentalHealth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Start a consultation
                   </button>
                 </div>
@@ -141,7 +151,10 @@ function MentalHealth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Start a consultation
                   </button>
                 </div>
@@ -157,7 +170,10 @@ function MentalHealth() {
                   </p>
                 </div>
                 <div>
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                    onClick={handleToast}
+                  >
                     Start a consultation
                   </button>
                 </div>
@@ -166,6 +182,7 @@ function MentalHealth() {
           </div>
         </div>
       </div>
+      <ToastContainer position="bottom-right" />
       <Footer />
     </>
   );

@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import { IoAddCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 import { useAppContext } from "../context/AppContext";
 
 function WeightLoss() {
@@ -15,6 +16,9 @@ function WeightLoss() {
   useEffect(() => {
     scrollToTop();
   }, []);
+
+  const handleToast = () =>
+    toast("Demo mode: where buttons look useful but aren't!");
 
   const handleFeet = (e) => {
     setFeet(e.target.value);
@@ -69,7 +73,10 @@ function WeightLoss() {
                   </p>
                 </div>
                 <div className="flex flex-col">
-                  <button className="bg-white text-black translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-gray-300/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98">
+                  <button
+                    className="bg-white text-black translate-transform ease-in-out duration-300 p-4 rounded-full mt-4 cursor-pointer hover:bg-gray-300/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98"
+                    onClick={handleToast}
+                  >
                     Start a consultation
                   </button>
                   <p className="text-center text-sm text-neutral-300 mt-4">
@@ -226,7 +233,10 @@ function WeightLoss() {
                     Get started
                   </button>
                 </Link>
-                <button className="bg-white text-black hover:text-white translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                <button
+                  className="bg-white text-black hover:text-white translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-black hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                  onClick={handleToast}
+                >
                   See if treatment is right for me
                 </button>
               </div>
@@ -245,7 +255,10 @@ function WeightLoss() {
                 </p>
               </div>
               <div>
-                <button className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full">
+                <button
+                  className="bg-white text-black translate-transform ease-in-out duration-300 p-3 rounded-full mt-4 cursor-pointer hover:bg-white/70 hover:backdrop-blur-lg font-medium text-lg active:scale-98 w-full"
+                  onClick={handleToast}
+                >
                   Learn more
                 </button>
               </div>
@@ -253,6 +266,7 @@ function WeightLoss() {
           </div>
         </div>
       </div>
+      <ToastContainer position="bottom-right" />
       <Footer />
     </>
   );
