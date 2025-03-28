@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import ShopCard from "./ShopCard";
 import medications from "../../data/medications";
 import { useAppContext } from "../../context/AppContext";
+import { useEffect } from "react";
 
 function Shop() {
   const { scrollToTop } = useAppContext();

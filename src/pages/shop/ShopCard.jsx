@@ -9,9 +9,9 @@ function ShopCard({ id, name, description, price, img }) {
 
   return (
     <>
-      <div className="relative bg-yellow-800/30 border-yellow-700 border-1 rounded-2xl w-55 shadow-md">
+      <div className="relative bg-yellow-800/30 border-yellow-700 border-1 rounded-2xl w-40 md:w-55 shadow-md">
         <img src={img} alt={name} className="rounded-t-2xl" />
-        <span className="absolute right-2 top-44 text-center text-2xl font-medium text-neutral-100 mt-2">
+        <span className="absolute right-2 top-30 md:top-44 text-center text-2xl font-medium text-neutral-100 mt-2">
           $ {price}
         </span>
         <div className="flex flex-col items-center p-2">
