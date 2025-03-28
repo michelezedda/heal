@@ -2,8 +2,15 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import ShopCard from "./ShopCard";
 import medications from "../../data/medications";
+import { useAppContext } from "../../context/AppContext";
 
 function Shop() {
+  const { scrollToTop } = useAppContext();
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <>
       <Navbar />
