@@ -22,7 +22,7 @@ function Shop() {
         <p className="text-2xl mx-6">
           Enhance your well-being with expertly crafted health solutions.
         </p>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4 md:gap-x-8 2xl:gap-4 mt-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4 md:gap-x-8 2xl:gap-4 mt-4">
           {medications.map((medication) => (
             <div key={medication.id}>
               <ShopCard {...medication} />

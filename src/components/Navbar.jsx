@@ -14,9 +14,9 @@ function Navbar() {
   };
   return (
     <>
-      <nav className="fixed top-0 flex justify-between items-center py-1 px-4 w-full text-3xl backdrop-blur-2xl font-[DM_Serif_Display] z-40 rounded-b-2xl shadow-md">
+      <nav className="fixed top-0 flex justify-between items-center py-1 px-4 w-full text-3xl backdrop-blur-2xl z-40 rounded-b-2xl shadow-md">
         <Link to={"/"}>
-          <span>heal</span>
+          <span className="font-[DM_Serif_Display] ">heal</span>
         </Link>
         <div className="flex">
           <div className="cursor-pointer p-3 z-50">

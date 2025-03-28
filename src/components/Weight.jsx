@@ -41,8 +41,10 @@ function Weight() {
                   <video
                     src="/media/weight-phone.mp4"
                     autoPlay
+                    loop
                     muted
-                    className="lg:max-w-70"
+                    playsInline
+                    className="lg:max-w-70  pointer-events-none touch-action-none"
                   />
                 </h3>
                 <p className="text-sm font-medium text-white leading-4.5">
