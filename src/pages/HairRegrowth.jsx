@@ -124,7 +124,7 @@ function HairRegrowth() {
             </div>
             <div
               id="treatments"
-              className="bg-green-900 w-full text-white rounded-2xl p-4 flex flex-col gap-4"
+              className="bg-green-900 w-full text-white rounded-2xl p-4 flex flex-col gap-4 lg:mt-30"
             >
               {/* Hair loss treatments */}
               <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/hair-creme.png)] bg-center bg-no-repeat bg-cover">

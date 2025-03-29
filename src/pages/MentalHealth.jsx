@@ -29,7 +29,7 @@ function MentalHealth() {
           </p>
           <div className="flex flex-col lg:flex-row justify-center items-start pb-5 gap-6">
             <div className="flex flex-col gap-2 w-full">
-              <div className="bg-[url(/media/anxiety-page-pic.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
+              <div className="bg-[url(/media/anxiety-page-pic.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160 lg:mt-30">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4 text-red-900">
                     Let the pros make a plan

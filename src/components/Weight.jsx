@@ -16,7 +16,7 @@ function Weight() {
             loop
             muted
             playsInline
-            className="absolute top-30 lg:top-40 left-0 z-0 pointer-events-none touch-action-none"
+            className="absolute top-30 lg:top-40 left-0 z-0 pointer-events-none touch-action-none motion-preset-slide-up"
             style={{ PointerEvent: "none" }}
           />
           <div className="z-10 mt-42 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165 xl:mx-40">
@@ -44,7 +44,7 @@ function Weight() {
                     loop
                     muted
                     playsInline
-                    className="lg:max-w-70  pointer-events-none touch-action-none"
+                    className="lg:max-w-70 pointer-events-none touch-action-none"
                   />
                 </h3>
                 <p className="text-sm font-medium text-white leading-4.5">

@@ -84,7 +84,7 @@ function SexualHealth() {
             </div>
             <div
               id="treatments"
-              className="bg-sky-900 w-full text-white rounded-2xl p-4 flex flex-col gap-4"
+              className="bg-sky-900 w-full text-white rounded-2xl p-4 flex flex-col gap-4 lg:mt-25"
             >
               {/* Condoms & Lube */}
               <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/condoms.png)] bg-center bg-no-repeat bg-cover">
