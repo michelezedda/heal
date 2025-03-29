@@ -13,10 +13,10 @@ function Hero() {
 
   const textColors = [
     "text-sky-800",
+    "text-amber-800",
+    "text-green-800",
     "text-red-800",
     "text-purple-800",
-    "text-green-800",
-    "text-amber-800",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
