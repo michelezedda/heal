@@ -18,6 +18,7 @@ heal is a modern mental health platform designed to make self-care simple, acces
 - **React-Toastify**: A library for displaying customizable notifications.
 - **React Icons**: A library providing popular icons as React components.
 - **Rombo**: A JavaScript library for smooth and performant animations.
+- **AOS (Animate On Scroll)**: JavaScript library for scroll-based animations.
 
 ## Project Link
 Explore heal: :link: [heal](https://heal-demo.vercel.app/)
