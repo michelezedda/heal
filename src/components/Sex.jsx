@@ -1,16 +1,6 @@
 import { Link } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 function Sex() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-    });
-  });
-
   return (
     <>
       <div className="relative mt-6 flex flex-col justify-center bg-[#5f89ab] rounded-2xl">
@@ -28,8 +18,6 @@ function Sex() {
             playsInline
             className="absolute top-30 lg:top-40 left-0 z-0 pointer-events-none touch-action-none"
             style={{ PointerEvent: "none" }}
-            data-aos="fade-up"
-            data-aos-duration="3000"
           />
           <div className="z-10 mt-42 sm:mt-75 md:mt-93 lg:mt-129 xl:mt-165">
             <div className="flex justify-center items-center gap-2">

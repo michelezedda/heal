@@ -45,6 +45,7 @@ function Weight() {
                     muted
                     playsInline
                     className="lg:max-w-70 pointer-events-none touch-action-none"
+                    style={{ PointerEvent: "none" }}
                   />
                 </h3>
                 <p className="text-sm font-medium text-white leading-4.5">
