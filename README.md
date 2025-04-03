@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://i.ibb.co/bgt6G46x/heal-project.png" alt="RentMe" width="1100">
+  <img src="https://i.ibb.co/gbxZX22B/heal-project.png" alt="RentMe" width="1100">
   <br>
 </h1>
 
