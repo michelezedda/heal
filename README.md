@@ -7,7 +7,7 @@
 <h2 align="center">heal: Telehealth for a healthier, more confident you</h2> 
 
 ## Introduction
-heal is a modern mental health platform designed to make self-care simple, accessible, and effective. Inspired by hims.com/hers.com, it offers a seamless experience for users looking to improve their mental well-being. With a clean interface and accessible resources, heal makes self-care easier, whether it's managing stress, improving focus, or building healthier habits.
+Heal is a modern mental health platform designed to make self-care simple, accessible, and effective. Inspired by Hims.com/Hers.com, it offers a seamless experience for users looking to improve their mental well-being. With a clean interface and accessible resources, heal makes self-care easier, whether it's managing stress, improving focus, or building healthier habits.
 
 ## Technologies Used
 
