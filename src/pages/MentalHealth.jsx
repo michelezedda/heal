@@ -29,7 +29,7 @@ function MentalHealth() {
           </p>
           <div className="flex flex-col lg:flex-row justify-center items-start pb-5 gap-6">
             <div className="flex flex-col gap-2 w-full">
-              <div className="bg-[url(/media/anxiety-page-pic.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160 lg:mt-30">
+              <div className="bg-[url(/media/anxiety-page-pic.webp)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160 lg:mt-30">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4 text-red-900">
                     Let the pros make a plan
@@ -65,7 +65,7 @@ function MentalHealth() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[url(/media/find-us.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
+              <div className="bg-[url(/media/find-us.webp)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4 text-red-900">
                     You know where to find us
@@ -91,7 +91,7 @@ function MentalHealth() {
               className="bg-red-900 w-full text-white rounded-2xl p-4 flex flex-col gap-4"
             >
               {/* Treatment options */}
-              <div className="flex flex-col p-4 h-100 rounded-2xl bg-[url(/media/anxiety-treatments.png)] bg-center bg-no-repeat bg-cover text-black">
+              <div className="flex flex-col p-4 h-100 rounded-2xl bg-[url(/media/anxiety-treatments.webp)] bg-center bg-no-repeat bg-cover text-black">
                 <div>
                   <h3 className="font-medium text-2xl mb-2">
                     Treatment options
@@ -103,7 +103,7 @@ function MentalHealth() {
                 </div>
               </div>
               {/* Anxiety & depression */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/anxiety-depression.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/anxiety-depression.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Anxiety & depression
@@ -122,7 +122,7 @@ function MentalHealth() {
                 </div>
               </div>
               {/* Sleep trouble */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/sleep-trouble.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/sleep-trouble.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Sleep trouble
@@ -141,7 +141,7 @@ function MentalHealth() {
                 </div>
               </div>
               {/* Burnout & job stress */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/burnout-stress.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/burnout-stress.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Burnout & job stress
@@ -160,7 +160,7 @@ function MentalHealth() {
                 </div>
               </div>
               {/* Major life events */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/major-events.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/major-events.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Major life events

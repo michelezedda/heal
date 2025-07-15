@@ -1,15 +1,15 @@
-import medPic1 from "/media/heal-box-1.png";
-import medPic2 from "/media/heal-box-2.png";
-import medPic3 from "/media/heal-box-3.png";
-import medPic4 from "/media/heal-box-4.png";
-import medPic5 from "/media/heal-box-5.png";
-import medPic6 from "/media/heal-box-6.png";
-import medPic7 from "/media/heal-box-7.png";
-import medPic8 from "/media/heal-box-8.png";
-import medPic9 from "/media/heal-box-9.png";
-import medPic10 from "/media/heal-box-10.png";
-import medPic11 from "/media/heal-box-11.png";
-import medPic12 from "/media/heal-box-12.png";
+import medPic1 from "/media/heal-box-1.webp";
+import medPic2 from "/media/heal-box-2.webp";
+import medPic3 from "/media/heal-box-3.webp";
+import medPic4 from "/media/heal-box-4.webp";
+import medPic5 from "/media/heal-box-5.webp";
+import medPic6 from "/media/heal-box-6.webp";
+import medPic7 from "/media/heal-box-7.webp";
+import medPic8 from "/media/heal-box-8.webp";
+import medPic9 from "/media/heal-box-9.webp";
+import medPic10 from "/media/heal-box-10.webp";
+import medPic11 from "/media/heal-box-11.webp";
+import medPic12 from "/media/heal-box-12.webp";
 
 const medications = [
   {

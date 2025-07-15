@@ -32,7 +32,7 @@ function HairRegrowth() {
           </p>
           <div className="flex flex-col lg:flex-row justify-center items-start pb-5 gap-6">
             <div className="flex flex-col gap-2 w-full">
-              <div className="bg-[url(/media/hair-page-pic.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
+              <div className="bg-[url(/media/hair-page-pic.webp)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4">
                     Your hair, your regrowth, your way
@@ -50,7 +50,7 @@ function HairRegrowth() {
                   </Link>
                 </div>
               </div>
-              <div className="bg-[url(/media/green-sheet.png)] bg-cover bg-no-repeat bg-center rounded-2xl p-4 flex flex-col items-center justify-between h-140">
+              <div className="bg-[url(/media/green-sheet.webp)] bg-cover bg-no-repeat bg-center rounded-2xl p-4 flex flex-col items-center justify-between h-140">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4 text-white">
                     Trusted ingredients: <br />
@@ -84,7 +84,7 @@ function HairRegrowth() {
                   </p>
                 </div>
               </div>
-              <div className="bg-[url(/media/touching-hair.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
+              <div className="bg-[url(/media/touching-hair.webp)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4">
                     Hair loss treatment that’s suited to you
@@ -127,7 +127,7 @@ function HairRegrowth() {
               className="bg-green-900 w-full text-white rounded-2xl p-4 flex flex-col gap-4 lg:mt-30"
             >
               {/* Hair loss treatments */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/hair-creme.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/hair-creme.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Hair loss treatments
@@ -145,7 +145,7 @@ function HairRegrowth() {
                 </div>
               </div>
               {/* Results */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/happiness.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/happiness.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Thousands of you are loving their results
@@ -197,7 +197,7 @@ function HairRegrowth() {
                 </div>
               </div>
               {/* Satisfaction */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/hair-treatment.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/hair-treatment.webp)] bg-center bg-no-repeat bg-cover">
                 <div className="text-center">
                   <h4 className="text-8xl text-green-950 mb-2 font-bold">
                     90%

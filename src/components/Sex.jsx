@@ -44,7 +44,7 @@ function Sex() {
                   </button>
                 </Link>
               </div>
-              <div className="rounded-2xl w-full pt-6 text-start bg-[url(/media/sex-couple.png)] bg-center bg-no-repeat bg-cover lg:basis-1/2 lg:h-155">
+              <div className="rounded-2xl w-full pt-6 text-start bg-[url(/media/sex-couple.webp)] bg-center bg-no-repeat bg-cover lg:basis-1/2 lg:h-155">
                 <div className="flex flex-col px-4 pb-8 gap-6 h-full justify-between">
                   <h3 className="text-white text-2xl md:text-4xl pb-10">
                     How do you want to

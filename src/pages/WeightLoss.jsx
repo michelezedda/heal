@@ -62,7 +62,7 @@ function WeightLoss() {
           <div className="flex flex-col justify-center items-start pb-5 gap-6">
             <div className="flex flex-col lg:flex-row gap-6">
               {/* Lose weight */}
-              <div className="bg-[url(/media/weight-page-pic.png)] bg-cover bg-no-repeat bg-center w-full lg:w-1/2 text-white rounded-2xl p-4 flex flex-col justify-between h-160">
+              <div className="bg-[url(/media/weight-page-pic.webp)] bg-cover bg-no-repeat bg-center w-full lg:w-1/2 text-white rounded-2xl p-4 flex flex-col justify-between h-160">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4">
                     Lose up to 20% your bodyweight
@@ -204,7 +204,7 @@ function WeightLoss() {
               </div>
             </div>
             {/* Weight Loss treatments */}
-            <div className="flex flex-col justify-between p-4 h-150 rounded-2xl bg-[url(/media/brown-pills.png)] bg-center bg-no-repeat bg-cover w-full text-white">
+            <div className="flex flex-col justify-between p-4 h-150 rounded-2xl bg-[url(/media/brown-pills.webp)] bg-center bg-no-repeat bg-cover w-full text-white">
               <div className="text-center">
                 <h4 className="text-2xl md:text-4xl mb-2 font-bold">
                   Weight loss treatment for{" "}
@@ -242,7 +242,7 @@ function WeightLoss() {
               </div>
             </div>
             {/* Meal replacement */}
-            <div className="flex flex-col justify-between p-4 h-120 rounded-2xl bg-[url(/media/protein-bar.png)] bg-[90%_50%] bg-no-repeat bg-cover w-full text-white">
+            <div className="flex flex-col justify-between p-4 h-120 rounded-2xl bg-[url(/media/protein-bar.webp)] bg-[90%_50%] bg-no-repeat bg-cover w-full text-white">
               <div className="text-center">
                 <h4 className="text-2xl md:text-4xl mb-2 font-bold">
                   Meal replacement kits{" "}

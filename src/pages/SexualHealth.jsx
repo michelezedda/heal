@@ -29,7 +29,7 @@ function SexualHealth() {
           </p>
           <div className="flex flex-col lg:flex-row justify-center items-start pb-5 gap-6">
             <div className="flex flex-col gap-2 w-full">
-              <div className="bg-[url(/media/sex-page-pic.png)] bg-cover bg-no-repeat bg-center rounded-2xl p-4 flex flex-col justify-between h-160">
+              <div className="bg-[url(/media/sex-page-pic.webp)] bg-cover bg-no-repeat bg-center rounded-2xl p-4 flex flex-col justify-between h-160">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4 text-sky-200">
                     100% secure online process with licensed providers.
@@ -48,7 +48,7 @@ function SexualHealth() {
                   </a>
                 </div>
               </div>
-              <div className="bg-[url(/media/hand-pills.png)] bg-cover bg-no-repeat bg-center text-black rounded-2xl p-4 flex flex-col items-center justify-between h-140">
+              <div className="bg-[url(/media/hand-pills.webp)] bg-cover bg-no-repeat bg-center text-black rounded-2xl p-4 flex flex-col items-center justify-between h-140">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4">
                     Get hard & stay hard anytime the mood strikes
@@ -63,7 +63,7 @@ function SexualHealth() {
                   </button>
                 </Link>
               </div>
-              <div className="bg-[url(/media/couple.png)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
+              <div className="bg-[url(/media/couple.webp)] bg-cover bg-no-repeat bg-center text-white rounded-2xl p-4 flex flex-col justify-between h-160">
                 <div>
                   <h3 className="text-center font-medium text-4xl mb-4">
                     Plan ahead with ED pills taken before sex
@@ -87,7 +87,7 @@ function SexualHealth() {
               className="bg-sky-900 w-full text-white rounded-2xl p-4 flex flex-col gap-4 lg:mt-25"
             >
               {/* Condoms & Lube */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/condoms.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/condoms.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Condoms & Lube
@@ -106,7 +106,7 @@ function SexualHealth() {
                 </div>
               </div>
               {/* Sex Toys & Vibrators */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/box.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/box.webp)] bg-center bg-no-repeat bg-cover">
                 <div>
                   <h4 className="text-2xl text-neutral-950 mb-2">
                     Sex Toys & Vibrators
@@ -125,7 +125,7 @@ function SexualHealth() {
                 </div>
               </div>
               {/* Satisfaction */}
-              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/bed-fun.png)] bg-center bg-no-repeat bg-cover">
+              <div className="flex flex-col justify-between p-4 h-100 rounded-2xl bg-[url(/media/bed-fun.webp)] bg-center bg-no-repeat bg-cover">
                 <div className="text-center">
                   <h4 className="text-8xl text-sky-700 mb-2 font-bold">90%</h4>
                   <p className="text-lg text-neutral-950">
