@@ -108,11 +108,11 @@ export function HeroButton({ config }) {
         <span className={textClass}>{text2}</span>
       </div>
       <div className="flex gap-3">
-        <img src={imgHidden} className="w-max h-8 group-hover:hidden" />
+        <img src={imgHidden} className="w-14 h-8 group-hover:hidden" />
         <img
           src={img}
           alt={text1 + text2}
-          className="w-max h-8 hidden group-hover:block"
+          className="w-14 h-8 hidden group-hover:block"
         />
         <IoArrowForwardCircle size={30} className="text-black" />
       </div>
