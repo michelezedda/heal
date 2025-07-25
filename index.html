@@ -1,24 +1,84 @@
 <!DOCTYPE html>
 <html lang="en_US">
   <head>
+    <!-- Charset & Compatibility -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/media/favicon.ico" />
-    <link rel="apple-touch-icon" href="/media/apple-touch-icon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Heal: Telehealth for a healthier, more confident you. Access professional healthcare remotely with ease."
+    />
+    <meta
+      name="keywords"
+      content="heal, telehealth, remote healthcare, online doctor, virtual healthcare, health app"
+    />
+    <meta name="author" content="Michele Zedda" />
+    <meta name="designer" content="Michele Zedda - https://michelezedda.com" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://heal-demo.vercel.app/" />
+
+    <!-- Open Graph Meta Tags (Social Sharing) -->
     <meta property="og:title" content="heal" />
     <meta
       property="og:description"
       content="Telehealth for a healthier, more confident you"
     />
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="https://heal-demo.vercel.app/" />
     <meta
       property="og:image"
       content="https://i.ibb.co/chqMfj2r/apple-touch-icon.png"
     />
-    <meta property="og:locale" content="en" />
+    <meta property="og:site_name" content="heal" />
+    <meta property="og:locale" content="en_US" />
 
+    <!-- PWA / Mobile App Support -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="heal" />
+    <meta name="application-name" content="heal" />
+    <meta name="theme-color" content="#007acc" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/media/favicon.ico" />
+    <link rel="apple-touch-icon" href="/media/apple-touch-icon.png" />
+
+    <!-- Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Page Title -->
     <title>Telehealth for a healthier, more confident you │ heal</title>
+
+    <!-- Structured Data (JSON-LD) for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebApplication",
+        "name": "heal",
+        "url": "https://heal-demo.vercel.app",
+        "image": "https://i.ibb.co/chqMfj2r/apple-touch-icon.png",
+        "description": "Heal: Telehealth for a healthier, more confident you. Access professional healthcare remotely with ease.",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "All",
+        "author": {
+          "@type": "Person",
+          "name": "Michele Zedda"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
