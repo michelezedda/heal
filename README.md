@@ -80,7 +80,7 @@ Make sure you have the following installed on your machine:
     ```
 
     ## Screenshots
-  <img src="https://i.ibb.co/yn1V5jT8/screencapture-heal-demo-vercel-app-2025-08-12-19-32-18.png">
+  <img src="https://i.postimg.cc/rMpbKtnk/screencapture-heal-demo-vercel-app-2025-08-12-19-32-18.png">
   <img src="https://i.ibb.co/4RdWmFdT/screencapture-heal-demo-vercel-app-weight-loss-2025-08-12-19-32-51.png">
   <img src="https://i.ibb.co/Z1zYb7NR/screencapture-heal-demo-vercel-app-mental-health-2025-08-12-19-33-20.png">
   <img src="https://i.ibb.co/03JY0ZT/screencapture-heal-demo-vercel-app-sexual-health-2025-08-12-19-33-27.png">
