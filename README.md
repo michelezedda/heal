@@ -80,12 +80,26 @@ Make sure you have the following installed on your machine:
     ```
 
     ## Screenshots
-   <div align="center">
-[![screencapture-heal-demo-vercel-app-2025-08-12-19-32-18.png](https://i.postimg.cc/KvdQW4hq/screencapture-heal-demo-vercel-app-2025-08-12-19-32-18.png)](https://postimg.cc/QHJp98t1)
-[![screencapture-heal-demo-vercel-app-weight-loss-2025-08-12-19-32-51.png](https://i.postimg.cc/cHpMb5VK/screencapture-heal-demo-vercel-app-weight-loss-2025-08-12-19-32-51.png)](https://postimg.cc/4719Kw4Z)
-[![screencapture-heal-demo-vercel-app-mental-health-2025-08-12-19-33-20.png](https://i.postimg.cc/t4pDbw7W/screencapture-heal-demo-vercel-app-mental-health-2025-08-12-19-33-20.png)](https://postimg.cc/bsV1H6xw)
-[![screencapture-heal-demo-vercel-app-sexual-health-2025-08-12-19-33-27.png](https://i.postimg.cc/W18818JK/screencapture-heal-demo-vercel-app-sexual-health-2025-08-12-19-33-27.png)](https://postimg.cc/k2VKjxsF)
-[![screencapture-heal-demo-vercel-app-hair-regrowth-2025-08-12-19-33-36.png](https://i.postimg.cc/Xvv8G5fv/screencapture-heal-demo-vercel-app-hair-regrowth-2025-08-12-19-33-36.png)](https://postimg.cc/3kPpzdbM)
-[![screencapture-heal-demo-vercel-app-shop-2025-08-12-19-34-35.png](https://i.postimg.cc/qB61x29h/screencapture-heal-demo-vercel-app-shop-2025-08-12-19-34-35.png)](https://postimg.cc/QVsgXKNh)
-[![screencapture-heal-demo-vercel-app-cart-2025-08-12-19-34-56.png](https://i.postimg.cc/fyd5Whxj/screencapture-heal-demo-vercel-app-cart-2025-08-12-19-34-56.png)](https://postimg.cc/5Qx8pTK6)
+<div align="center">
+  <a href="https://postimg.cc/QHJp98t1">
+    <img src="https://i.postimg.cc/KvdQW4hq/screencapture-heal-demo-vercel-app-2025-08-12-19-32-18.png" width="800" />
+  </a>
+  <a href="https://postimg.cc/4719Kw4Z">
+    <img src="https://i.postimg.cc/cHpMb5VK/screencapture-heal-demo-vercel-app-weight-loss-2025-08-12-19-32-51.png" width="800" />
+  </a>
+  <a href="https://postimg.cc/bsV1H6xw">
+    <img src="https://i.postimg.cc/t4pDbw7W/screencapture-heal-demo-vercel-app-mental-health-2025-08-12-19-33-20.png" width="800" />
+  </a>
+  <a href="https://postimg.cc/k2VKjxsF">
+    <img src="https://i.postimg.cc/W18818JK/screencapture-heal-demo-vercel-app-sexual-health-2025-08-12-19-33-27.png" width="800" />
+  </a>
+  <a href="https://postimg.cc/3kPpzdbM">
+    <img src="https://i.postimg.cc/Xvv8G5fv/screencapture-heal-demo-vercel-app-hair-regrowth-2025-08-12-19-33-36.png" width="800" />
+  </a>
+  <a href="https://postimg.cc/QVsgXKNh">
+    <img src="https://i.postimg.cc/qB61x29h/screencapture-heal-demo-vercel-app-shop-2025-08-12-19-34-35.png" width="800" />
+  </a>
+  <a href="https://postimg.cc/5Qx8pTK6">
+    <img src="https://i.postimg.cc/fyd5Whxj/screencapture-heal-demo-vercel-app-cart-2025-08-12-19-34-56.png" width="800" />
+  </a>
 </div>
