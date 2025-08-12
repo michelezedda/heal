@@ -81,7 +81,9 @@ Make sure you have the following installed on your machine:
 
     ## Screenshots
 <div align="center">
-<img src="https://iili.io/FZelbUl.png" width="500" />
+<a href="https://iili.io/FZelbUl.png" target="_blank">
+  <img src="https://iili.io/FZelbUl.png" width="500" />
+</a>
 <img src="https://iili.io/FZelCtn.png" width="500" />
 <img src="https://iili.io/FZelJ6v.png" width="500" />
 <img src="https://iili.io/FZec6Cb.png" width="500" />
